@@ -1,7 +1,7 @@
 const Animacion = () => {
     return (
         <section>
-            Animacion
+            Animacion 
         </section>
     )
 }
