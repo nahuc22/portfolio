@@ -1,0 +1,42 @@
+.Inicio{
+    width: 85%;
+    height: 92vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8vh;
+}
+
+.full {
+    width: 420px;
+    height: 200px;
+
+}
+
+.full h1{
+    font-size: 3rem;
+}
+
+.full p{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.full .adornos div {
+    background-color: blueviolet;
+    display: flex;
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
+.botones{
+   width: 420px;
+   height: 200px; 
+}

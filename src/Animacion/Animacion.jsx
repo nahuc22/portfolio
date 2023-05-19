@@ -1,7 +1,8 @@
+import style from './Animacion.module.css';
 const Animacion = () => {
     return (
         <section>
-            Animacion 
+        <span className={style.loader}></span>
         </section>
     )
 }

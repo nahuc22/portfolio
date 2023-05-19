@@ -1,7 +1,11 @@
+.navMobile{
+    display: none;
+}
+
 .header{
-    background: linear-gradient(90deg,rgb(196, 159, 222),rgb(226, 212, 236));
+    /* background: linear-gradient(90deg,rgb(196, 159, 222),rgb(226, 212, 236));
     position: sticky;
-    top: 0;
+    top: 0; */
     z-index: 99;
     width: 85%;
     height: 8vh;
@@ -18,3 +22,21 @@
     align-items: center;
     gap: 30px;
   }
+
+.nav a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.logo{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+span{
+    background: linear-gradient(180deg, #3f5efb, #fc466b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
