@@ -8,7 +8,7 @@ import react from '../assets/reactjs-icon.svg'
 import psql from '../assets/postgresql-icon.svg'
 import expressjs from '../assets/expressjs.svg'
 import nodejs from '../assets/nodejs-icon.svg'
-import pokemon from '../assets/lading.png'
+import pokemon from '../assets/landing.png'
 
 const Proyectos = () => {
 
