@@ -1,7 +1,5 @@
 import styles from '../Proyectos/Proyectos.module.css';
 import fundaciones from '../assets/nosotros.png'
-import img3 from '../assets/img3.webp'
-import img4 from '../assets/img4.webp'
 import github from '../assets/github.svg'
 import html from '../assets/htmlnuevo.svg'
 import css from '../assets/cssnuevo.svg'
