@@ -1,5 +1,4 @@
 import './App.css'
-import backgroundVideo from './assets/videobg.mp4';
 import Inicio from './Inicio/Inicio.jsx'
 function App() {
 
@@ -7,7 +6,7 @@ function App() {
     <div>
       <Inicio/>   
       <video autoPlay loop muted class="videoBackground">
-                    <source src={backgroundVideo} type="video/mp4" />
+                    <source src="/videos/videobg.mp4" type="video/mp4" />
       </video>
     </div>
   )
