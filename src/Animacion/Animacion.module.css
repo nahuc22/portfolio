@@ -20,7 +20,7 @@
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    background: linear-gradient(180deg, #3f5efb, #fc466b);
+    background: linear-gradient(60deg, #e3992a, #000000);
     transform: translate(-50% , -100%)  scale(0);
     animation: push_401 2s infinite linear;
     -webkit-animation: push_401 2s infinite linear;

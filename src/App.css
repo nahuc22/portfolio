@@ -5,8 +5,17 @@
 }
 
 body{
-  background: linear-gradient(90deg,rgb(0, 0, 0),rgb(128, 122, 132));
-   font-family:  Courier New,Courier,monospace;
+  background: linear-gradient(90deg,#151313,#001211);
+  font-family:  Courier New,Courier,monospace;
 }
 
 
+.videoBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Asegura que el video cubra todo el espacio */
+  z-index: -1; /* Coloca el video detrás del contenido */
+}

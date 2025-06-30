@@ -4,15 +4,25 @@ import github from '../assets/github.svg'
 import html from '../assets/htmlnuevo.svg'
 import css from '../assets/cssnuevo.svg'
 import js from '../assets/jsnuevo.svg'
+import ts from '../assets/ts.svg'
 import react from '../assets/reactjs-icon.svg'
 import psql from '../assets/postgresql-icon.svg'
 import expressjs from '../assets/expressjs.svg'
 import nodejs from '../assets/nodejs-icon.svg'
 import pokemon from '../assets/landing.png'
+import ambientalistas from '../assets/ambientalistas.png'
 
 const Proyectos = () => {
 
     const tarjetas = [
+      {
+        image:[pokemon],
+        name:'Pokemon',
+        descrip:'Proyecto para visualizar todos los pokemons, consumo de API , PERN stack',
+        tecno:[html,css,js, react, psql, expressjs, nodejs],
+        url:'https://github.com/nahuc22/pokemon',
+        deploy: 'https://pokemon-nahuc22.vercel.app/'
+      },
       {
         image:[fundaciones],
         name:'Pet Connect Rescue',
@@ -21,14 +31,13 @@ const Proyectos = () => {
         url:'https://github.com/nahuc22/Proyecto-final',
         deploy: 'https://pet-connect-rescue.vercel.app/'
       },
-
       {
-        image:[pokemon],
-        name:'Pokemon',
-        descrip:'Proyecto para visualizar todos los pokemons, consumo de API , PERN stack',
-        tecno:[html,css,js, react, psql, expressjs, nodejs],
-        url:'https://github.com/nahuc22/pokemon',
-        deploy: 'https://pokemon-nahuc22.vercel.app/'
+        image:[ambientalistas],
+        name:'OAA',
+        descrip:' Organización Ambientalistas Autoconvocados que promueve la lucha socio-ambientalista ',
+        tecno:[html,css,ts, react, psql, expressjs, nodejs],
+        url:'https://github.com/Lizhana/oaa-web',
+        deploy: 'https://ambientalistas.org.ar/'
       }
     ]
 

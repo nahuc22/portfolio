@@ -1,0 +1,74 @@
+/* Button.module.css */
+.button {
+  width: 155px;
+  height: 35px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background: #dedede;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.71);
+  position: relative; /* Asegúrate de que el botón tenga posición relativa */
+  transition: 200ms;
+  margin-top: 20px;
+}
+
+.text {
+  transform: translateX(35px);
+  color: black;
+  font-weight: bold;
+  transition: 200ms; /* Mueve la transición aquí */
+}
+
+.icon {
+  position: absolute;
+  border-left: 1px solid #007300;
+  transform: translateX(110px);
+  height: 34px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4px;
+  transition: 200ms; /* Mueve la transición aquí */
+}
+
+.svg {
+  width: 15px;
+  margin-right: 15px;
+  fill: #eee;
+}
+
+.button:hover {
+  background: #dedede;
+}
+
+.button:active {
+  background: #dedede;
+}
+
+.button:hover .text {
+  color: transparent;
+}
+
+.button:hover .icon {
+  width: 150px;
+  border-left: none;
+  transform: translateX(0);
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:active .icon svg {
+  transform: scale(0.8);
+}
+
+.buttonSpan {
+  color: black;
+  font-size: 30px;
+  margin-right: 15px;
+  margin-bottom: 3px;  
+}

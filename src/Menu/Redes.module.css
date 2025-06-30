@@ -10,6 +10,6 @@
 }
 
 .Redes img{
-  filter: invert(29%) sepia(90%) saturate(1345%) hue-rotate(214deg) brightness(101%) contrast(100%);
-
+  /* filter: invert(29%) sepia(90%) saturate(1345%) hue-rotate(214deg) brightness(101%) contrast(100%); */
+  color:white;
 }

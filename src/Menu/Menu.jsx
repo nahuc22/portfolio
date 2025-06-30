@@ -6,19 +6,27 @@ import proyec from '../assets/proyectos.svg';
 import sobre from '../assets/sobremi.svg';
 
 
-const Menu = () => {
+const Menu = ({onChangeComponent}) => {
     return(
         <header className={styles.header}>
             <span className={styles.logo}></span>
 
             <nav className={styles.nav}>
+                <p onClick={() => onChangeComponent('inicio')}>Inicio</p>
+                <p onClick={() => onChangeComponent('proyectos')}>Proyectos</p>
+                <p onClick={() => onChangeComponent('sobremi')}>SobreMi</p>
+            </nav>
 
-              <Link to='/'><span>I</span>nicio</Link>
-
-              <Link to='/portfolio/proyectos'><span>P</span>royectos</Link>
-
-              <Link to='/portfolio/sobremi'><span>S</span>obreMi</Link>
-
+            <nav className={styles.navMobile}>
+                <p onClick={() => onChangeComponent('inicio')}>
+                    <img width='40px' src={home} alt="Inicio" />
+                </p>
+                <p onClick={() => onChangeComponent('proyectos')}>
+                    <img width='40px' src={proyec} alt="Proyectos" />
+                </p>
+                <p onClick={() => onChangeComponent('sobremi')}>
+                    <img width='40px' src={sobre} alt="SobreMi" />
+                </p>
             </nav>
 
             <nav className={styles.navMobile}>
