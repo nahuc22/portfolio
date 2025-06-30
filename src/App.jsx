@@ -6,7 +6,7 @@ function App() {
     <div>
       <Inicio/>   
       <video autoPlay loop muted class="videoBackground">
-                    <source src="/videos/videobg.mp4" type="video/mp4" />
+                    <source src="/videos/videobg.webm" type="video/mp4" />
       </video>
     </div>
   )
