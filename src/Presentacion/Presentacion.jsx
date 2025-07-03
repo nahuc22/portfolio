@@ -26,13 +26,12 @@ const Presentacion = () => {
   return (
       <section className={styles.Inicio}>
           <article className={styles.full}>
-              <h1 className={styles.h1Title}>Fullstack web developer</h1>
               <br></br>
-              <br></br>
+              <h1 className={styles.h1Title}>Fullstack developer</h1>
+              {/* <br></br> */}
               <p> Desarrollador mobile(2024)
                   <br></br>
-                  <br></br>
-                  <img src={reactnative} style={{ height: '42px', marginLeft: '-8px' }}></img>
+                  <img src={reactnative} style={{ height: '40px', marginLeft: '5px' , marginTop: '10px' }}></img>
                   <img src={redux} style={{ height: '35px', marginLeft: '15px' }}></img>
                   <img src={expo} style={{ height: '35px', marginLeft: '25px' }}></img>
                   <img src={ts} style={{ height: '35px', marginLeft: '25px' }}></img>
@@ -48,8 +47,7 @@ const Presentacion = () => {
                   <br></br>
                   <br></br>
                   Especializado en Front-end
-                  <br></br>
-                  <br></br>
+                  <br></br><br></br>
                   <img src={css} style={{ height: '36px' }}></img>
                   <img src={html} style={{ height: '33px', marginLeft: '25px' }}></img>
                   <img src={nextjs} style={{ height: '36px', marginLeft: '25px' }}></img>
@@ -70,11 +68,11 @@ const Presentacion = () => {
                   Mantenimiento de Database
                   <br></br>
                   <br></br>
-                  <img src={psql} style={{ height: '40px' }}></img>
-                  <img src={mongo} style={{ height: '39px', marginLeft: '25px' }}></img>
+                  <img src={psql} style={{ height: '35px' }}></img>
+                  <img src={mongo} style={{ height: '35px', marginLeft: '25px' }}></img>
                   <img src={mysql} style={{ height: '40px', marginLeft: '20px' }}></img>
-                  <img src={db} style={{ height: '40px', marginLeft: '20px' }}></img>
-                  <img src={docker} style={{ height: '40px', marginLeft: '20px' }}></img>
+                  <img src={db} style={{ height: '35px', marginLeft: '20px' }}></img>
+                  <img src={docker} style={{ height: '35px', marginLeft: '20px' }}></img>
                   <br></br>
               </p>
           </article>
