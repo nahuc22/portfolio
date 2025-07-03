@@ -7,15 +7,15 @@ const Redes = () => {
     return(
         <div className={styles.Redes}>
            <a href="https://linkedin.com/in/nahuel-castilla-dev">
-            <img width='25px' src={Linkedin} alt="" />
+            <img width='35px' src={Linkedin} alt="" />
            </a>
 
            <a href="https://github.com/nahuc22">
-           <img width='25px' src={github} alt="" />
+           <img width='35px' src={github} alt="" />
            </a>
 
            <a href="https://instagram.com/nahucastilla_">
-           <img width='25px' src={instagram} alt="" />
+           <img width='35px' src={instagram} alt="" />
            </a>
         </div>
     )

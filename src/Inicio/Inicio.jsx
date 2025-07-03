@@ -19,8 +19,8 @@ const Inicio = () => {
                 return <Presentacion />;
             case 'proyectos':
                 return <Proyectos />;
-            case 'sobremi':
-                return <SobreMi />;
+            // case 'sobremi':
+            //     return <SobreMi />;
             default:
                 return <Presentacion />;
         }

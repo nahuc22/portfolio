@@ -51,7 +51,7 @@
         left: 50%;
         transform: translateX(-50%);
         height: 8vh;
-        border: 2px solid  rgb(223, 3, 204);
+        border: 2px solid  rgb(255, 255, 255);
         border-radius: 7px;
         margin-bottom: 5px;
         position: absolute;
@@ -68,7 +68,7 @@
         align-items: center;
     }
 
-    .navMobile a img {
+    .navMobile p img {
         filter: invert(48%) sepia(100%) saturate(5471%) hue-rotate(224deg) brightness(100%) contrast(98%);
     }
 
