@@ -26,10 +26,10 @@ const Presentacion = () => {
   return (
       <section className={styles.Inicio}>
           <article className={styles.full}>
-              <br></br>
+              {/* <br></br> */}
+              <h1 className={styles.h1Title} style={{marginBottom: '-25px', marginTop: '10px'}}>NAHUEL CASTILLA</h1>
               <h1 className={styles.h1Title}>FULLSTACK DEVELOPER</h1>
-              <br></br>
-              <p> Desarrollador mobile(2024)
+              <p style={{marginTop: '10px'}}> Desarrollador mobile(2024)
                   <br></br>
                   <img src={reactnative} style={{ height: '40px', marginLeft: '5px' , marginTop: '10px' }}></img>
                   <img src={redux} style={{ height: '35px', marginLeft: '15px' }}></img>
