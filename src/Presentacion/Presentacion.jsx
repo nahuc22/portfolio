@@ -28,7 +28,7 @@ const Presentacion = () => {
           <article className={styles.full}>
               <br></br>
               <h1 className={styles.h1Title}>Fullstack developer</h1>
-              {/* <br></br> */}
+              <br></br>
               <p> Desarrollador mobile(2024)
                   <br></br>
                   <img src={reactnative} style={{ height: '40px', marginLeft: '5px' , marginTop: '10px' }}></img>
