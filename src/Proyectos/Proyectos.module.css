@@ -26,9 +26,11 @@
   display: flex;
   flex-direction: column;
   height: 100%;
+  border: 4px black solid;
 }
 
 .card:hover {
+  border: 4px black solid;
   transform: translateY(-5px);
 }
 

@@ -27,7 +27,7 @@ const Presentacion = () => {
       <section className={styles.Inicio}>
           <article className={styles.full}>
               <br></br>
-              <h1 className={styles.h1Title}>Fullstack developer</h1>
+              <h1 className={styles.h1Title}>FULLSTACK DEVELOPER</h1>
               <br></br>
               <p> Desarrollador mobile(2024)
                   <br></br>
